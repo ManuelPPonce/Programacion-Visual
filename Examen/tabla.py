@@ -1,0 +1,7 @@
+tablam = [1,2,3,4,5,6,7,8,9,10]
+n = int(input("Ingresa un numero :"))
+def tabla(n):
+	for i in tablam:
+		temp = n*i
+		print (n," x " , i ," = " ,temp )
+tabla(n)
