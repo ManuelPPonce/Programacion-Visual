@@ -14,7 +14,7 @@ def des(descuento,cantidad):
 
 	resultado = cantidad - aplicar
 
-	print("El importe del producto es $",cantidad," y el descuento es :",descuento)
+	print("El importe del producto es $",datos["Importe"]," y el descuento es :",datos["Descuento"])
 	print("El total es : ", resultado)
 
 des(descuento,cantidad)
